@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5611DED1C90F5A2005AB424 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5611DEC1C90F5A2005AB424 /* main.m */; };
+		D5611DF01C90F5A2005AB424 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5611DEF1C90F5A2005AB424 /* AppDelegate.m */; };
+		D5611DF31C90F5A2005AB424 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5611DF21C90F5A2005AB424 /* ViewController.m */; };
+		D5611DF61C90F5A2005AB424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5611DF41C90F5A2005AB424 /* Main.storyboard */; };
+		D5611DF81C90F5A2005AB424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5611DF71C90F5A2005AB424 /* Assets.xcassets */; };
+		D5611DFB1C90F5A2005AB424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5611DF91C90F5A2005AB424 /* LaunchScreen.storyboard */; };
+		D5611E061C90F5A2005AB424 /* TKVideoRecordingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5611E051C90F5A2005AB424 /* TKVideoRecordingTests.m */; };
+		D5611E111C90F5A2005AB424 /* TKVideoRecordingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5611E101C90F5A2005AB424 /* TKVideoRecordingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5611E021C90F5A2005AB424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5611DE01C90F5A2005AB424 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5611DE71C90F5A2005AB424;
+			remoteInfo = TKVideoRecording;
+		};
+		D5611E0D1C90F5A2005AB424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5611DE01C90F5A2005AB424 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5611DE71C90F5A2005AB424;
+			remoteInfo = TKVideoRecording;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5611DE81C90F5A2005AB424 /* TKVideoRecording.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKVideoRecording.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5611DEC1C90F5A2005AB424 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5611DEE1C90F5A2005AB424 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5611DEF1C90F5A2005AB424 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5611DF11C90F5A2005AB424 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5611DF21C90F5A2005AB424 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5611DF51C90F5A2005AB424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5611DF71C90F5A2005AB424 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5611DFA1C90F5A2005AB424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5611DFC1C90F5A2005AB424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5611E011C90F5A2005AB424 /* TKVideoRecordingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKVideoRecordingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5611E051C90F5A2005AB424 /* TKVideoRecordingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKVideoRecordingTests.m; sourceTree = "<group>"; };
+		D5611E071C90F5A2005AB424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5611E0C1C90F5A2005AB424 /* TKVideoRecordingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKVideoRecordingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5611E101C90F5A2005AB424 /* TKVideoRecordingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKVideoRecordingUITests.m; sourceTree = "<group>"; };
+		D5611E121C90F5A2005AB424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5611DE51C90F5A2005AB424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5611DFE1C90F5A2005AB424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5611E091C90F5A2005AB424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5611DDF1C90F5A2005AB424 = {
+			isa = PBXGroup;
+			children = (
+				D5611DEA1C90F5A2005AB424 /* TKVideoRecording */,
+				D5611E041C90F5A2005AB424 /* TKVideoRecordingTests */,
+				D5611E0F1C90F5A2005AB424 /* TKVideoRecordingUITests */,
+				D5611DE91C90F5A2005AB424 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5611DE91C90F5A2005AB424 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5611DE81C90F5A2005AB424 /* TKVideoRecording.app */,
+				D5611E011C90F5A2005AB424 /* TKVideoRecordingTests.xctest */,
+				D5611E0C1C90F5A2005AB424 /* TKVideoRecordingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5611DEA1C90F5A2005AB424 /* TKVideoRecording */ = {
+			isa = PBXGroup;
+			children = (
+				D5611DEE1C90F5A2005AB424 /* AppDelegate.h */,
+				D5611DEF1C90F5A2005AB424 /* AppDelegate.m */,
+				D5611DF11C90F5A2005AB424 /* ViewController.h */,
+				D5611DF21C90F5A2005AB424 /* ViewController.m */,
+				D5611DF41C90F5A2005AB424 /* Main.storyboard */,
+				D5611DF71C90F5A2005AB424 /* Assets.xcassets */,
+				D5611DF91C90F5A2005AB424 /* LaunchScreen.storyboard */,
+				D5611DFC1C90F5A2005AB424 /* Info.plist */,
+				D5611DEB1C90F5A2005AB424 /* Supporting Files */,
+			);
+			path = TKVideoRecording;
+			sourceTree = "<group>";
+		};
+		D5611DEB1C90F5A2005AB424 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5611DEC1C90F5A2005AB424 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5611E041C90F5A2005AB424 /* TKVideoRecordingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5611E051C90F5A2005AB424 /* TKVideoRecordingTests.m */,
+				D5611E071C90F5A2005AB424 /* Info.plist */,
+			);
+			path = TKVideoRecordingTests;
+			sourceTree = "<group>";
+		};
+		D5611E0F1C90F5A2005AB424 /* TKVideoRecordingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5611E101C90F5A2005AB424 /* TKVideoRecordingUITests.m */,
+				D5611E121C90F5A2005AB424 /* Info.plist */,
+			);
+			path = TKVideoRecordingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5611DE71C90F5A2005AB424 /* TKVideoRecording */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5611E151C90F5A2005AB424 /* Build configuration list for PBXNativeTarget "TKVideoRecording" */;
+			buildPhases = (
+				D5611DE41C90F5A2005AB424 /* Sources */,
+				D5611DE51C90F5A2005AB424 /* Frameworks */,
+				D5611DE61C90F5A2005AB424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKVideoRecording;
+			productName = TKVideoRecording;
+			productReference = D5611DE81C90F5A2005AB424 /* TKVideoRecording.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5611E001C90F5A2005AB424 /* TKVideoRecordingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5611E181C90F5A2005AB424 /* Build configuration list for PBXNativeTarget "TKVideoRecordingTests" */;
+			buildPhases = (
+				D5611DFD1C90F5A2005AB424 /* Sources */,
+				D5611DFE1C90F5A2005AB424 /* Frameworks */,
+				D5611DFF1C90F5A2005AB424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5611E031C90F5A2005AB424 /* PBXTargetDependency */,
+			);
+			name = TKVideoRecordingTests;
+			productName = TKVideoRecordingTests;
+			productReference = D5611E011C90F5A2005AB424 /* TKVideoRecordingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5611E0B1C90F5A2005AB424 /* TKVideoRecordingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5611E1B1C90F5A2005AB424 /* Build configuration list for PBXNativeTarget "TKVideoRecordingUITests" */;
+			buildPhases = (
+				D5611E081C90F5A2005AB424 /* Sources */,
+				D5611E091C90F5A2005AB424 /* Frameworks */,
+				D5611E0A1C90F5A2005AB424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5611E0E1C90F5A2005AB424 /* PBXTargetDependency */,
+			);
+			name = TKVideoRecordingUITests;
+			productName = TKVideoRecordingUITests;
+			productReference = D5611E0C1C90F5A2005AB424 /* TKVideoRecordingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5611DE01C90F5A2005AB424 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "翟宇";
+				TargetAttributes = {
+					D5611DE71C90F5A2005AB424 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D5611E001C90F5A2005AB424 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D5611DE71C90F5A2005AB424;
+					};
+					D5611E0B1C90F5A2005AB424 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D5611DE71C90F5A2005AB424;
+					};
+				};
+			};
+			buildConfigurationList = D5611DE31C90F5A2005AB424 /* Build configuration list for PBXProject "TKVideoRecording" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5611DDF1C90F5A2005AB424;
+			productRefGroup = D5611DE91C90F5A2005AB424 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5611DE71C90F5A2005AB424 /* TKVideoRecording */,
+				D5611E001C90F5A2005AB424 /* TKVideoRecordingTests */,
+				D5611E0B1C90F5A2005AB424 /* TKVideoRecordingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5611DE61C90F5A2005AB424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5611DFB1C90F5A2005AB424 /* LaunchScreen.storyboard in Resources */,
+				D5611DF81C90F5A2005AB424 /* Assets.xcassets in Resources */,
+				D5611DF61C90F5A2005AB424 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5611DFF1C90F5A2005AB424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5611E0A1C90F5A2005AB424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5611DE41C90F5A2005AB424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5611DF31C90F5A2005AB424 /* ViewController.m in Sources */,
+				D5611DF01C90F5A2005AB424 /* AppDelegate.m in Sources */,
+				D5611DED1C90F5A2005AB424 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5611DFD1C90F5A2005AB424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5611E061C90F5A2005AB424 /* TKVideoRecordingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5611E081C90F5A2005AB424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5611E111C90F5A2005AB424 /* TKVideoRecordingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5611E031C90F5A2005AB424 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5611DE71C90F5A2005AB424 /* TKVideoRecording */;
+			targetProxy = D5611E021C90F5A2005AB424 /* PBXContainerItemProxy */;
+		};
+		D5611E0E1C90F5A2005AB424 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5611DE71C90F5A2005AB424 /* TKVideoRecording */;
+			targetProxy = D5611E0D1C90F5A2005AB424 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5611DF41C90F5A2005AB424 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5611DF51C90F5A2005AB424 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5611DF91C90F5A2005AB424 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5611DFA1C90F5A2005AB424 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5611E131C90F5A2005AB424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5611E141C90F5A2005AB424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5611E161C90F5A2005AB424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TKVideoRecording/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekiu.test.TKVideoRecording;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5611E171C90F5A2005AB424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TKVideoRecording/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekiu.test.TKVideoRecording;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5611E191C90F5A2005AB424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TKVideoRecordingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekiu.test.TKVideoRecordingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKVideoRecording.app/TKVideoRecording";
+			};
+			name = Debug;
+		};
+		D5611E1A1C90F5A2005AB424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TKVideoRecordingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekiu.test.TKVideoRecordingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKVideoRecording.app/TKVideoRecording";
+			};
+			name = Release;
+		};
+		D5611E1C1C90F5A2005AB424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TKVideoRecordingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekiu.test.TKVideoRecordingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TKVideoRecording;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D5611E1D1C90F5A2005AB424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TKVideoRecordingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekiu.test.TKVideoRecordingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TKVideoRecording;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5611DE31C90F5A2005AB424 /* Build configuration list for PBXProject "TKVideoRecording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5611E131C90F5A2005AB424 /* Debug */,
+				D5611E141C90F5A2005AB424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5611E151C90F5A2005AB424 /* Build configuration list for PBXNativeTarget "TKVideoRecording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5611E161C90F5A2005AB424 /* Debug */,
+				D5611E171C90F5A2005AB424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5611E181C90F5A2005AB424 /* Build configuration list for PBXNativeTarget "TKVideoRecordingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5611E191C90F5A2005AB424 /* Debug */,
+				D5611E1A1C90F5A2005AB424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5611E1B1C90F5A2005AB424 /* Build configuration list for PBXNativeTarget "TKVideoRecordingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5611E1C1C90F5A2005AB424 /* Debug */,
+				D5611E1D1C90F5A2005AB424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5611DE01C90F5A2005AB424 /* Project object */;
+}
