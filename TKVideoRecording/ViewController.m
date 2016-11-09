@@ -54,7 +54,7 @@ typedef void(^PropertyChangeBlock)(AVCaptureDevice *captureDevice);
     //获得输入设备
     AVCaptureDevice *captureDevice=[self getCameraDeviceWithPosition:AVCaptureDevicePositionBack];//取得后置摄像头
     if (!captureDevice) {
-        NSLog(@"取得后置摄像头时出现问题.");
+        NSLog(@"取得后置摄像头时出现问题1.");
         return;
     }
     //添加一个音频输入设备
